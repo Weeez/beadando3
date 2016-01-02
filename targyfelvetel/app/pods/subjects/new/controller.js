@@ -17,7 +17,7 @@ export default Ember.Controller.extend({
 			this.set('size','');
 			this.set('location','');
 			this.set('teacher','');
-			this.transitionToRoute('index');
+			this.transitionToRoute('/subjects/list');
 			
         },
 		clear(){
@@ -26,7 +26,7 @@ export default Ember.Controller.extend({
 			this.set('size','');
 			this.set('location','');
 			this.set('teacher','');
-			this.transitionToRoute('index');
+			this.transitionToRoute('/subjects/list');
 		}
     }
     

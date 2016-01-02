@@ -20,6 +20,17 @@ module.exports = function(environment) {
     }
   };
 
+  ENV.contentSecurityPolicy = {
+      'default-src': "'none'",
+      'script-src': "'self'",
+      'font-src': "'self' 'unsafe-eval' https://fonts.gstatic.com",
+      'connect-src': "'self' 'unsafe-eval' https://bead3-backend-weeez.c9users.io/",
+      //'connect-src': "'self' 'unsafe-eval' https://localhost:1111",
+      'img-src': "'self'",
+      'style-src': "'self' 'unsafe-eval' https://fonts.googleapis.com",
+      'media-src': "'self'"
+  };
+
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;

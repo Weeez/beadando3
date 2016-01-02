@@ -13,7 +13,7 @@
               <label for="subject_name">Adja meg a tárgy nevét!</label>
             <div class="col-lg-10">
               <!--<input class="form-control" id="subject_name" name="subject_name" placeholder="pl. Analízis, Diszkrét Matek, stb..." type="text" {{!--value="{{data.subject_name}}"--}}>-->
-              <p>{{input class="form-control" id="name" name="name" placeholder="pl. Analízis, Diszkrét Matek, stb..." type="text" valueBinding="name"}}</p>
+              <p>{{input class="form-control" id="name" name="name" placeholder="pl. Analízis, Diszkrét Matek, stb..." type="text" valueBinding="name" value=model.name}}</p>
                {{!-- {{#if validationErrors.subject_name}}
                     <span class="help-block">{{validationErrors.subject_name.msg}}</span>
                 {{/if}}    --}}          
@@ -31,7 +31,7 @@
         <label for="subject_code">Adja meg a tárgy kódját!</label>
           <div class="col-lg-10">
               <!--<input class="form-control" id="subject_code" name="subject_code" placeholder="pl. AnC2015, DmC2015, stb..." type="text"{{!-- value="{{data.subject_code}}"--}}>-->
-              <p>{{input class="form-control" id="code" name="code" placeholder="pl. AnC2015, DmC2015, stb..." type="text" valueBinding="code"}}</p>
+              <p>{{input class="form-control" id="code" name="code" placeholder="pl. AnC2015, DmC2015, stb..." type="text" valueBinding="code" value=model.code}}</p>
            {{!-- {{#if validationErrors.subject_code}}
                 <span class="help-block">{{validationErrors.subject_code.msg}}</span>
             {{/if}}    --}}
@@ -47,7 +47,7 @@
           <label for="subject_size">Adja meg a helyek számát!</label>
           <div class="col-lg-10">
               <!--<input class="form-control" id="subject_size" name="subject_size" placeholder="pl. 10, 20, stb..." type="text"{{!-- value="{{data.subject_size}}"--}}>-->
-              <p>{{input class="form-control" id="size" name="size" placeholder="pl. 10, 20, stb..." type="text" valueBinding="size"}}</p>
+              <p>{{input class="form-control" id="size" name="size" placeholder="pl. 10, 20, stb..." type="number" valueBinding="size" value=model.size}}</p>
            {{!-- {{#if validationErrors.subject_size}}
                 <span class="help-block">{{validationErrors.subject_size.msg}}</span>
             {{/if}} --}}
@@ -63,7 +63,7 @@
           <label for="subject_location">Adja meg a tárgy helyszínét!</label>
           <div class="col-lg-10">
             <!--<input class="form-control" id="subject_location" name="subject_location" placeholder="pl. Északi, Déli, stb..." type="text" value="{{data.subject_location}}">-->
-            <p>{{input class="form-control" id="location" name="location" placeholder="pl. Északi, Déli, stb..." type="text" valueBinding="location"}}</p>
+            <p>{{input class="form-control" id="location" name="location" placeholder="pl. Északi, Déli, stb..." type="text" valueBinding="location" value=model.location}}</p>
             {{!--{{#if validationErrors.subject_location}}
                 <span class="help-block">{{validationErrors.subject_location.msg}}</span>
             {{/if}}             --}}
@@ -79,7 +79,7 @@
         <label for="subject_teacher">Adja meg az oktató nevét!</label>
           <div class="col-lg-10">
             <!--<input class="form-control" id="subject_teacher" name="subject_teacher" placeholder="pl. Kovács Eszter, Tóth Bálint, stb..." type="text" value="{{data.subject_teacher}}">-->
-            <p>{{input class="form-control" id="teacher" name="teacher" placeholder="pl. Kovács Eszter, Tóth Bálint, stb..." type="text" valueBinding="teacher"}}</p>
+            <p>{{input class="form-control" id="teacher" name="teacher" placeholder="pl. Kovács Eszter, Tóth Bálint, stb..." type="text" valueBinding="teacher" value=model.teacher}}</p>
             {{!--{{#if validationErrors.subject_location}}
                 <span class="help-block">{{validationErrors.subject_teacher.msg}}</span>
             {{/if}}              --}}
@@ -89,8 +89,8 @@
       <fieldset class="buttons">
         <div class="form-group">
             <div class="col-lg-10 col-lg-offset-2">
-                <button type="reset" class="btn btn-default" {{action: "clear"}}>Cancel</button>
-                <button type="submit" class="btn btn-primary" {{action "submit"}}>Submit</button>
+                <button type="reset" class="btn btn-default" {{action "back"}}>Mégse</button>
+                <button type="submit" class="btn btn-primary" {{action "submit"}}>Módosít</button>
             </div>
         </div>
     </fieldset>

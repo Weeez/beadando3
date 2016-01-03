@@ -67,7 +67,7 @@ Balázs András - QO728I - xeropax@gmail.com
 
 ## Implementáció
 * __Fejlesztői környezet__: Cloud 9 felhőalapú IDE, ami a www.c9.io linken keresztül elérhető. Virtuális gépként(szerverként) is tudjuk használni, amit szabadon szerkeszthetünk, valamint megoszthatunk másokkal és a kódunkba is betekintést engedhetünk. A fejlesztés során az EMBER.js javascript nyelv lett használva.
-* __Könyvtárstruktúrában lévő mappák funkciója__: Az *_app/pods_* mappán belül külön könyvtára van minden modellnek, komponensnek, és templatenek és routenak, a logikailag összetartozóak egy mappán belül vannak. Az oldal megjelenéséért a __templatek__ (hbs fájlok) felelnek, melyek sablonját az adapter tamplateje adja, az objektumok szerkeszetét a __modellek__ adják, az __adapter__ pedig biztosítja a kapcsolatot a szerverrel.
+* __Könyvtárstruktúrában lévő mappák funkciója__: Az *_app/pods_* mappán belül külön könyvtára van minden modellnek, komponensnek, és templatenek és routenak, a logikailag összetartozóak egy mappán belül vannak. Az oldal megjelenéséért a __templatek__ (hbs fájlok) felelnek, melyek sablonját az adapter templateje adja, az objektumok szerkeszetét a __modellek__ adják, az __adapter__ pedig biztosítja a kapcsolatot a szerverrel.
 
 ## Felhasználói dokumentáció
 1. __A futtatáshoz ajánlott hardver-, szoftver konfiguráció:__ 

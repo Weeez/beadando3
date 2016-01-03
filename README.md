@@ -34,25 +34,25 @@ Balázs András - QO728I - xeropax@gmail.com
  ![Ábra](https://raw.githubusercontent.com/weeez/beadando3/master/public/folyamat.jpg "")
 
 ## Tervezés
- 1. Architektúra terv
+1. Architektúra terv
  * Oldaltérkép
-   * Főoldal
-   * Tárgyfelvétel (módosítás/törlés)
-   * Új tárgy hozzáadása
-   * Rólunk
+  * Főoldal
+  * Tárgyfelvétel (módosítás/törlés)
+  * Új tárgy hozzáadása
+  * Rólunk
  * Végpontok:
-   * '/' - főoldal
-   * 'subjects/list' - Tantárgyak listája
-   * 'subjects/new' - Új tantárgy felvétele
-   * 'subjects/update/:id' - Tantárgy módosítása
+  * '/' - főoldal
+  * 'subjects/list' - Tantárgyak listája
+  * 'subjects/new' - Új tantárgy felvétele
+  * 'subjects/update/:id' - Tantárgy módosítása
   
- 2. Felhasználó felületmodell:
+2. Felhasználó felületmodell:
   * Főoldal
   * Tantárgyak
   * Új felvétele
   * Rólunk
- 3. Osztálymodell:
- 4. Dinamikus műküödés
+3. Osztálymodell:
+4. Dinamikus műküödés
 
 ## Implementáció
 

@@ -6,13 +6,13 @@ Balázs András - QO728I - xeropax@gmail.com
 
 ##Követelmények
 ###Az oldal egy tantárgyfelvételhez szükséges tárgylista megjelenítéséhez, valamint kezeléséhez nyújt szolgáltatást.
-###Funkcionális követelmények:
+### Funkcionális követelmények:
   * Az oldal lista-tartalmához a felhasználó tud új elemet felvenni
   * Az oldal lista-tartalmát a felhasználó tudja módosítani
   * Az oldal lista-tartalmát a felhasználó tudja törölni
-###Nem funkcionális követelmények:
+### Nem funkcionális követelmények:
   * A megjelenő oldal egyértelműen kezelhető
-###Szakterületi fogalomjegyzék:
+### Szakterületi fogalomjegyzék:
   * subject: A tantárgy adatait tároló objektum. Tulajdonságai:
     * name: A tárgy neve, karakterlánc (String),
     * code: A tárgy kódja, karakterlánc (String),
@@ -23,10 +23,10 @@ Balázs András - QO728I - xeropax@gmail.com
   * new: Új tantárgy felvételének lehetősége, űrlap oldal segítségével, html gombbal.
   * update: Egy létező tantárgy módosításának lehetősége, űrlap oldal segítségével, html gombbal.
   * delete: Egy létező tantárgy törlésének lehetősége, html gombbal.
-###Használatieset-modell:
+### Használatieset-modell:
  * Használati eset diagram
  * A felhasználó listájának szerkesztési folyamata
-###Tervezés
+### Tervezés
  1. Architektúra terv
   * Oldaltérkép
   * Végpontok
@@ -37,5 +37,5 @@ Balázs András - QO728I - xeropax@gmail.com
   * Rólunk
  3. Osztálymodell:
  4. Dinamikus műküödés
-###Implementáció
-###Felhasználói dokumentáció
+### Implementáció
+### Felhasználói dokumentáció

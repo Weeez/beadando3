@@ -27,7 +27,9 @@ Balázs András - QO728I - xeropax@gmail.com
   * delete: Egy létező tantárgy törlésének lehetősége, html gombbal.
 
 ## Használatieset-modell:
- * Használati eset diagram
+ * Használati eset diagram</br>
+ ![Ábra](https://raw.githubusercontent.com/weeez/beadando3/master/public/osztalydiagram.jpg "")
+
  * A felhasználó listájának szerkesztési folyamata
 
 ## Tervezés

@@ -36,7 +36,16 @@ Balázs András - QO728I - xeropax@gmail.com
 ## Tervezés
  1. Architektúra terv
   * Oldaltérkép
-  * Végpontok
+   * Főoldal
+   * Tárgyfelvétel (módosítás/törlés)
+   * Új tárgy hozzáadása
+   * Rólunk
+  * Végpontok:
+   * '/' - főoldal
+   * 'subjects/list' - Tantárgyak listája
+   * 'subjects/new' - Új tantárgy felvétele
+   * 'subjects/update/:id' - Tantárgy módosítása
+  
  2. Felhasználó felületmodell:
   * Főoldal
   * Tantárgyak

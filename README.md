@@ -58,8 +58,12 @@ Balázs András - QO728I - xeropax@gmail.com
    
   * Rólunk</br>
 ![Ábra](https://raw.githubusercontent.com/weeez/beadando3/master/public/about.jpg "") 
-3. Osztálymodell:
+
+3. Osztálymodell</br>
+![Ábra](https://raw.githubusercontent.com/weeez/beadando3/master/public/subject_class.jpg "")
+
 4. Dinamikus műküödés
+![Ábra](https://raw.githubusercontent.com/weeez/beadando3/master/public/szekvencia.jpg "")
 
 ## Implementáció
 

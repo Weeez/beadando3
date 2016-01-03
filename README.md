@@ -31,7 +31,7 @@ Balázs András - QO728I - xeropax@gmail.com
  ![Ábra](https://raw.githubusercontent.com/weeez/beadando3/master/public/osztalydiagram.jpg "")
 
  * A felhasználó listájának szerkesztési folyamata</br>
- ![Ábra](https://raw.githubusercontent.com/weeez/beadando3/master/public/osztalydiagram.jpg "")
+ ![Ábra](https://raw.githubusercontent.com/weeez/beadando3/master/public/folyamat.jpg "")
 
 ## Tervezés
  1. Architektúra terv

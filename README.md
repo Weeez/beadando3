@@ -37,8 +37,8 @@ Balázs András - QO728I - xeropax@gmail.com
 1. Architektúra terv
     * Oldaltérkép
         * Főoldal
-        * Tárgyfelvétel (módosítás/törlés)
-        * Új tárgy hozzáadása
+        * Tantárgyak (módosítás/törlés)
+        * Tárgy felvétele
         * Rólunk
     * Végpontok:
         * '/' - főoldal
@@ -47,10 +47,17 @@ Balázs András - QO728I - xeropax@gmail.com
         * 'subjects/update/:id' - Tantárgy módosítása
   
 2. Felhasználó felületmodell:
-  * Főoldal
-  * Tantárgyak
-  * Új felvétele
-  * Rólunk
+  * Főoldal</br>
+![Ábra](https://raw.githubusercontent.com/weeez/beadando3/master/public/index.jpg "") 
+
+  * Tantárgyak</br>
+![Ábra](https://raw.githubusercontent.com/weeez/beadando3/master/public/list.jpg "")  
+  
+  * Új felvétele</br>
+![Ábra](https://raw.githubusercontent.com/weeez/beadando3/master/public/new.jpg "")  
+   
+  * Rólunk</br>
+![Ábra](https://raw.githubusercontent.com/weeez/beadando3/master/public/about.jpg "") 
 3. Osztálymodell:
 4. Dinamikus műküödés
 

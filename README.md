@@ -23,3 +23,19 @@ Balázs András - QO728I - xeropax@gmail.com
   * new: Új tantárgy felvételének lehetősége, űrlap oldal segítségével, html gombbal.
   * update: Egy létező tantárgy módosításának lehetősége, űrlap oldal segítségével, html gombbal.
   * delete: Egy létező tantárgy törlésének lehetősége, html gombbal.
+4. Használatieset-modell:
+ * Használati eset diagram
+ * A felhasználó listájának szerkesztési folyamata
+5. Tervezés
+ 1. Architektúra terv
+  * Oldaltérkép
+  * Végpontok
+ 2. Felhasználó felületmodell:
+  * Főoldal
+  * Tantárgyak
+  * Új felvétele
+  * Rólunk
+ 3. Osztálymodell:
+ 4. Dinamikus műküödés
+6. Implementáció
+7. Felhasználói dokumentáció

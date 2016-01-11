@@ -10,12 +10,18 @@
           <li><a href="/about">Rólunk</a></li>
           <li><a href="/logout">Kijelentkezés</a></li>
         {{else}}--}}
-          <li><a href="/">Főoldal</a></li>
+
           <!--<li><a href="/login">Bejelentkezés</a></li>-->
           <!--<li><a href="/registration">Regisztráció</a></li>-->
+          
+          <!--<li><a href="/">Főoldal</a></li>
           <li><a href="/subjects/list">Tantárgyak</a></li>              
           <li><a href="/subjects/new">Tárgy felvétele</a></li>    
-          <li><a href="/about">Rólunk</a></li>      
+          <li><a href="/about">Rólunk</a></li>   -->   
+          <li>{{link-to "Főoldal" "/"}}</li>
+          <li>{{link-to "Tantárgyak" "subjects.list"}}</li>
+          <li>{{link-to "Tárgy felvétele" "subjects.new"}}</li>
+          <li>{{link-to "Rólunk" "about"}}</li>
         {{!--{{/if}}--}}
         
         
